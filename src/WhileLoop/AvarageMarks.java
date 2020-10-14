@@ -18,7 +18,7 @@ public class AvarageMarks {
         int n = sc.nextInt();
         int marks[] = new int[n];
         System.out.println("enter the marks now ");
-        for (int i=0; i<n; i++);
+        for (int i=0; i<n; i++) //you put semicolon here and I removed it.
             marks[i] = sc.nextInt();
         
         int average = 0;
