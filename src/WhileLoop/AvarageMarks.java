@@ -22,7 +22,7 @@ public class AvarageMarks {
             marks[i] = sc.nextInt();
         
         int average = 0;
-        for(int i=0; i<n;i++);
+        for(int i=0; i<n;i++)
             average += marks[i];
         
         average /=n;
